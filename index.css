@@ -16,9 +16,10 @@ p{
     width: 40%;
     margin-left: 5%;
     padding-left: 2;
+    float: left;
 }
 .half-width img{
-    width: 80%;
+    width: 100%;
 }
 .top-banner{
     background-image: url('Backgorund image/top-banner.png');
@@ -26,4 +27,21 @@ p{
 }
 section{
     height: 500px;
+    padding-bottom: 150px;
+}
+.link-button{
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+}
+h2{
+    font-size: 45px;
+}
+.dream-area{
+    background-image: url("backgorund image/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }
